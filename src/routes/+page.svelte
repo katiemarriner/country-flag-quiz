@@ -1,2 +1,13 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+  import data from '$lib/data/flags.json';
+
+  console.log(data);
+
+  Math.random()
+</script>
+
+<h1>What country does this flag belong to?</h1>
+<!-- Play area -->
+<!-- Randomize Flag -->
+<!-- Choices or text input -->
+<!-- Next -->
