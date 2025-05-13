@@ -1,7 +1,11 @@
 import { sveltekit } from '@sveltejs/kit/vite';
 import { defineConfig } from 'vite';
+import { sveltePreprocess } from 'svelte-preprocess';
 
 export default defineConfig({
-  base: '/country-flag-quiz',
-	plugins: [sveltekit()]
+  paths: {
+    base: '/country-flag-quiz'
+  },
+	plugins: [sveltekit()],
+  preprocess: sveltePreprocess()
 });

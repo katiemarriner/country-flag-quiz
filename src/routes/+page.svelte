@@ -1,9 +1,9 @@
 <script lang="ts">
   import data from '$lib/data/flags.json';
 
-  console.log(data);
+  // console.log(data);
 
-  Math.random()
+  // Math.random()
 </script>
 
 <h1>What country does this flag belong to?</h1>
