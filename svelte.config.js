@@ -9,11 +9,11 @@ const config = {
         entries: ['*']
       },
       strict: false
-    })
-	},
+    }),
   paths: {
-    base: process.argv.includes('dev') ? '' : process.env.BASE_PATH
+    base: '/country-flag-quiz'
   }
+	}
 };
 
 export default config;
